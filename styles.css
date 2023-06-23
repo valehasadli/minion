@@ -1,0 +1,89 @@
+#minion {
+  position: relative;
+  width: 180px;
+  height: 340px;
+  margin: 60px auto;
+}
+
+.head {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  background-color: #ffcc00;
+  border-radius: 50% 50% 50% 50%;
+  z-index: 10;
+}
+
+.head .eye {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 60px auto 0;
+}
+
+.body {
+  position: relative;
+  width: 180px;
+  height: 200px;
+  background-color: #ffcc00;
+  margin-top: -50px;
+  border-radius: 0 0 90px 90px;
+}
+
+.body .overall-top {
+  position: absolute;
+  width: 180px;
+  height: 100px;
+  background-color: #003366;
+  border-top: 35px solid #ffcc00;
+  border-radius: 0 0 20px 20px;
+}
+
+.body .overall-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 180px;
+  height: 100px;
+  background-color: #003366;
+  border-radius: 20px 20px 0 0;
+}
+
+.body .overall-bottom .left-leg, .body .overall-bottom .right-leg {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #003366;
+  bottom: -60px;
+}
+
+.body .overall-bottom .left-leg {
+  left: 20px;
+  border-radius: 90px 90px 0 0;
+}
+
+.body .overall-bottom .right-leg {
+  right: 20px;
+  border-radius: 90px 90px 0 0;
+}
+
+.body .left-arm {
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  background-color: #ffcc00;
+  top: 50px;
+  left: -30px;
+  border-radius: 20px;
+}
+
+.body .right-arm {
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  background-color: #ffcc00;
+  top: 50px;
+  right: -30px;
+  border-radius: 20px;
+}
